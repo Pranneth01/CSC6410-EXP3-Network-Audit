@@ -1,0 +1,24 @@
+
+{
+  "student-host:host": {
+    "os": "linux",
+    "default-gateway": "172.21.16.1",
+    "dns-server": [
+      "10.255.255.254"
+    ],
+    "interface": [
+      {
+        "name": "eth0",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1350,
+        "ipv4": [
+          "172.21.19.210/20"
+        ],
+        "ipv6": [
+          "fe80::215:5dff:fefb:f190/64"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "student-host:host": {
+    "hostname": "User",
+    "os": "linux",
+    "collected-at": "2026-11-11T09:18:02.010358+00:00",
+    "dns-server": [
+      "10.255.255.254"
+    ],
+    "interface": [
+      {
+        "name": "lo",
+        "type": "loopback",
+        "oper-status": "up",
+        "mtu": 65536,
+        "mac": "00:00:00:00:00:00",
+        "ipv4": [
+          "127.0.0.1/8",
+          "10.255.255.254/32"
+        ],
+        "ipv6": [
+          "::1/128"
+        ]
+      },
+      {
+        "name": "eth0",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1350,
+        "mac": "00:15:5d:fb:f1:90",
+        "ipv4": [
+          "172.21.19.210/20"
+        ],
+        "ipv6": [
+          "fe80::215:5dff:fefb:f190/64"
+        ]
+      }
+    ],
+    "default-gateway": "172.21.16.1"
+  }
+}
